@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bevægelse</title>
     <style>
+    background-color: lightblue;
         body {
             margin: 0;
             padding: 0;
@@ -16,22 +17,30 @@
         .beholder {
             max-width: 100%;
             text-align: center;
+            align-items: center;
             color: rgb(31, 28, 28);
-            background-color: rgb(212, 104, 131);
+            background-color: lightblue;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             /* 3 kolonner, fr står for fraction, */
             /* grid-gap: 5%; */
             /* %-enhed gør det også responsivt */
         }
+
+        .beholder_item {
+            text-align: center;
+        }
+        .overskrift{
+            text-align: center;
+            background-color:lightblue;
         </style>
             
 </head>
 <body>
+    <h1 class="overskrift">!!! Bevæg dig !!!</h1>
    <div class="beholder"> 
-    <h1 class="beholder"> !!! Bevæg dig !!! </h1>
-    <h1 class="beholder"> !!! Bevæg dig !!! </h1>
-    <h1 class="beholder"> !!! Bevæg dig !!! </h1>
+    <p> </p>
+    <!--<h1 class="beholder_item"> !!! Bevæg dig !!! </h1>--> 
 </div>
 </body>
 </html>
