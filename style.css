@@ -11,11 +11,12 @@ body {
     max-width: 100%;
     text-align: center;
     color: rgb(31, 28, 28);
-    background-color: rgb(212, 104, 131);
+    background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .overskrift{
     text-align: center;
     background-color:lightblue;
+    font-size: 50px;
 }
