@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* vmin skalerer responsivt til viewporten */
+    letter-spacing: 1vmin;
+}
+
+.beholder {
+    max-width: 100%;
+    text-align: center;
+    color: rgb(31, 28, 28);
+    background-color: rgb(212, 104, 131);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
