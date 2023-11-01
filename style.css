@@ -1,10 +1,15 @@
 body {
+    overflow: hidden;
     margin: 0;
     padding: 0;
     background-color: lightgray;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* vmin skalerer responsivt til viewporten */
     letter-spacing: 1vmin;
+}
+
+canvas {
+    grid-column-start: 2;
 }
 
 .beholder {
