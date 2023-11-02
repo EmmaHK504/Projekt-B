@@ -1,7 +1,7 @@
 let flyttet = 50;
 
 function setup() {
-    let canvas = createCanvas(windowWidth, windowHeight/2);
+    let canvas = createCanvas(windowWidth, windowHeight-500);
     textSize(36);
 
     // giver canvas border på 2 pixel, 
