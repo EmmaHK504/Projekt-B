@@ -17,7 +17,7 @@ function draw(){
     background(255, 179, 255);
     fill(255);
     textAlign(CENTER, CENTER);
-    text('rystet: ' + str(flyttet), width / 2, height - 100);
+    text('rystet: ' + str(flyttet), width / 2, height - 200);
     circle(width / 2, height / 2, flyttet);
 }
 
