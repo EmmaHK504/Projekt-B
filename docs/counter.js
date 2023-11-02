@@ -25,6 +25,6 @@ function deviceMoved(){
     flyttet++;
     if (flyttet > 200){
         flyttet = 0;
-        
+    
         }
 }
