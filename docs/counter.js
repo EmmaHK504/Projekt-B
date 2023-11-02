@@ -1,7 +1,7 @@
 let flyttet = 50;
 
 function setup() {
-    let canvas = createCanvas(windowWidth, windowHeight-200);
+    let canvas = createCanvas(windowWidth, windowHeight/2);
     textSize(36);
 
     // giver canvas border på 2 pixel, 
@@ -17,7 +17,7 @@ function draw(){
     background(255, 179, 255);
     fill(255);
     textAlign(CENTER, CENTER);
-    text('rystet: ' + str(flyttet), width / 2, height - 200);
+    text('rystet: ' + str(flyttet), width / 2, height - 100);
     circle(width / 2, height / 2, flyttet);
 }
 
