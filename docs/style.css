@@ -19,6 +19,12 @@ canvas {
     background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
+}
+@media (max-width: 480px) {
+    .beholder {
+        grid-template-columns: 1fr;
+    }
 }
 .overskrift{
     text-align: center;
