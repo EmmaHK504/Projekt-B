@@ -26,6 +26,16 @@ canvas {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 960px) {
+    .beholder {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 1440px) {
+    .beholder {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 .overskrift{
     text-align: center;
     background-color:lightblue;
